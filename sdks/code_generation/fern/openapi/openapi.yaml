@@ -3659,15 +3659,15 @@ components:
         last_updated_by:
           type: string
           readOnly: true
+        action:
+          type: string
+          enum:
+          - evaluator
         type:
           type: string
           enum:
           - llm_as_judge
           - user_defined_metric_python
-        action:
-          type: string
-          enum:
-          - evaluator
       discriminator:
         propertyName: type
         mapping:
@@ -3813,15 +3813,15 @@ components:
         sampling_rate:
           type: number
           format: float
+        action:
+          type: string
+          enum:
+          - evaluator
         type:
           type: string
           enum:
           - llm_as_judge
           - user_defined_metric_python
-        action:
-          type: string
-          enum:
-          - evaluator
       discriminator:
         propertyName: type
         mapping:
@@ -3965,15 +3965,15 @@ components:
         last_updated_by:
           type: string
           readOnly: true
+        action:
+          type: string
+          enum:
+          - evaluator
         type:
           type: string
           enum:
           - llm_as_judge
           - user_defined_metric_python
-        action:
-          type: string
-          enum:
-          - evaluator
       discriminator:
         propertyName: type
         mapping:
@@ -4120,15 +4120,15 @@ components:
         last_updated_by:
           type: string
           readOnly: true
+        action:
+          type: string
+          enum:
+          - evaluator
         type:
           type: string
           enum:
           - llm_as_judge
           - user_defined_metric_python
-        action:
-          type: string
-          enum:
-          - evaluator
       discriminator:
         propertyName: type
         mapping:
@@ -4192,15 +4192,15 @@ components:
         project_id:
           type: string
           format: uuid
+        action:
+          type: string
+          enum:
+          - evaluator
         type:
           type: string
           enum:
           - llm_as_judge
           - user_defined_metric_python
-        action:
-          type: string
-          enum:
-          - evaluator
       discriminator:
         propertyName: type
         mapping:
